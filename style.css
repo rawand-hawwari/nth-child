@@ -21,3 +21,19 @@
     background-color:green;
     top: 25px;
 }
+
+
+/*hidden even numbers*/
+.numbers div{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+}
+
+.numbers div:nth-child(even){
+    display: none;
+}
